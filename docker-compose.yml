@@ -1,0 +1,11 @@
+version: '2'
+services:
+  ims_viewer_connector:
+    image: ims-viewer-connector
+    ports:
+     - "42101:8081"
+  ims_apps_repository:
+    image: ims-apps-repository
+    ports:
+     - "42102:8082"
+
